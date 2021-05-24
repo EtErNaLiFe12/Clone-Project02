@@ -12,6 +12,8 @@ body {
   right: 0;
   margin: 0 auto;
 }
+
+
 /* HEADER-PART */
 .h-container {
   position: relative;
@@ -61,7 +63,6 @@ body {
 
 
 /* TOP-IMG-PART */
-
 .ti-container {
   display: flex;
   position: relative;
@@ -136,16 +137,16 @@ body {
   height: 800px;
 } 
 
-/* SECTION-PART */
+
+/* SECTION-1-PART */
 #about {
-  margin-top: 20px;
   padding: 100px 0px 0px 0px;
   position: relative;
   z-index: 9;
 }
 .section-container {
   line-height: 24px;
-
+  height: 500px;
 }
 .section-container .row {
   display: flex;
@@ -191,7 +192,6 @@ body {
 .section-container .row .left-section .bottom-images {
   display: flex;
 }
-
 .section-container .row .left-section .bottom-images .image {
   position: relative;
   padding-right: 15px;
@@ -200,10 +200,160 @@ body {
   max-width: 33.333333%;
 }
 .section-container .row .left-section .bottom-images .image:first-child {
-  /* padding-left: 0; */
+  padding-left: 0;
 }
 .section-container .row .left-section .bottom-images img {
   width: 100%;
   overflow: hidden;
+}
+.right-section {
+  position: relative;
+}
+.right-section .video-bg img {
+  height: 100%;
+}
+.right-section .video-bg a {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  line-height: 70px;
+  background-color: #fb5849;
+  border-radius: 50%;
+  text-decoration: none;
+}
+.right-section .video-bg a .material-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin: auto;
+  color: #fff;
+}
+
+
+/* SECTION-2-PART */
+#menu {
+  margin-top: 100px;
+  background-color: #fffafa;
+  padding: 100px 0px;
+  z-index: 9;
+}
+.section-container .row .sec-title {
+  max-width: 500px;
+  text-align: left;
+}
+.section-container .row .sec-title h6 {
+  position: relative;
+  font-size: 15px;
+  color: #fb5849;
+  font-weight:700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-left: 40px;
+}
+.section-container .row .sec-title h6::before {
+  content: "";
+  width: 30px;
+  height: 1px;
+  position: absolute;
+  left:0;
+  top: 8px;
+  background-color: #fb5849;
+}
+.section-container .row .sec-title h2 {
+  line-height: 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2a2a2a;
+  letter-spacing: 3px;
+}
+
+.food-card {
+  position: relative;
+  max-width: 100%;
+  margin-top: -280px;
+  /* border: 1px solid red; */
+}
+.food-card .food-item {
+  display: flex;
+  max-width: 100%;
+}
+.food-card .food-item .f-item {
+  position: relative;
+  margin: 0 auto;
+  width: 20%;
+  height: 400px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.food-card .food-item .f-item:nth-child(1) {
+  background-image: url(../images/menu-item-01.jpg);
+}
+.food-card .food-item .f-item:nth-child(2) {
+  background-image: url(../images/menu-item-02.jpg);
+}
+.food-card .food-item .f-item:nth-child(3) {
+  background-image: url(../images/menu-item-03.jpg);
+}
+.food-card .food-item .f-item:nth-child(4) {
+  background-image: url(../images/menu-item-04.jpg);
+}
+.food-card .food-item .f-item:nth-child(5) {
+  background-image: url(../images/menu-item-05.jpg);
+}
+.food-card .food-item .f-item .price {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #fb5849;
+}
+.food-card .food-item .f-item .price h6 {
+  font-size: 20px;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+}
+.food-card .food-item .f-item .info {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  background-color: #fb5849;
+  border-radius: 0 0 5px 5px;
+  transition: 1s ease-out;
+}
+.food-card .food-item .f-item .info:hover {
+  height: 100px;
+}
+.food-card .food-item .f-item .info .title {
+  text-align: left;
+  margin: 15px 0 30px 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.food-card .food-item .f-item .info .description {
+  position: absolute;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
 }
 
