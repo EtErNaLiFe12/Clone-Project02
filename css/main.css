@@ -324,6 +324,9 @@ body {
   border-radius: 5px;
   background-color: #fb5849;
 }
+.food-card .food-item .f-item .price.displayed {
+  background-color: #000;
+}
 .food-card .food-item .f-item .price h6 {
   font-size: 20px;
   color: #fff;
@@ -339,6 +342,7 @@ body {
   background-color: #fb5849;
   border-radius: 0 0 5px 5px;
   transition: 1s ease-out;
+  cursor: pointer;
 }
 .food-card .food-item .f-item .info:hover {
   height: 100px;
@@ -355,4 +359,5 @@ body {
   text-align: left;
   font-size: 14px;
   color: #fff;
+  overflow: hidden;
 }
