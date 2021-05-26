@@ -1,6 +1,6 @@
-// Mouseover시 class 추가 이벤트(임시-수정해야함)
+// Mouseover시 class 추가 이벤트
 
-const displayEl = document.getElementsByClassName('price');
+const displayEl = document.getElementsByClassName('info');
 for (let i = 0; i < displayEl.length; i++) {
     displayEl[i].addEventListener('mouseover', function(){
 	    this.classList.add("displayed");
@@ -9,6 +9,7 @@ for (let i = 0; i < displayEl.length; i++) {
 	    this.classList.remove("displayed");
     })
 }
+
 // const infoEls = document.querySelectorAll('.info');
 // const descriptionEls = document.querySelectorAll('.title');
 // let fadeOut = true;
@@ -22,3 +23,4 @@ for (let i = 0; i < displayEl.length; i++) {
 //     infoEls.classList.remove('fadeout');
 //   }
 // });
+
