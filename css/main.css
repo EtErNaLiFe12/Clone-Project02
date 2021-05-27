@@ -398,6 +398,7 @@ body {
 .section-container .chef-info {
   position: relative;
   max-width: 100%;
+  height: 460px;
 }
 .section-container .chef-info .chef-item {
   position: absolute;
@@ -463,4 +464,191 @@ body {
 }
 .section-container .chef-info .chef-item .c-item .c-name h6 {
   text-align: center;
+}
+.b-container {
+  margin-top: 120px;
+}
+
+/* B-SECTION-PART */
+#reservation {
+  margin-top: 200px;
+  padding: 120px 0px;
+  background-image: url(../images/reservation-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+}
+.b-lr-container {
+  display: flex;
+}
+.b-left {
+  width: 1200px;
+}
+.b-left .left-s-top {
+  line-height: 20px;
+}
+.b-left .left-s-top h6 {
+  position: relative;
+  color: #fff;
+  padding-left: 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.b-left .left-s-top h6::before {
+  content: "";
+  width: 30px;
+  height: 1px;
+  position: absolute;
+  left:0;
+  top: 8px;
+  background-color: #fff;
+}
+.b-left .left-s-top h2 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 40px;
+  margin: 35px 0 35px 0;
+  font-weight: 700;
+}
+.b-left .left-s-top p {
+  color: #fff;
+  font-size: 13px;
+}
+.b-left .left-s-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.b-left .left-s-bottom .phone-num-box {
+  width: 200px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-right: 60px;
+}
+.b-left .left-s-bottom .email-box {
+  width: 200px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.b-left .left-s-bottom .phone-i {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #fb5849;
+  border-radius: 50%;
+  margin-left: 70px;
+  margin-top: -20px;
+  z-index: 1;
+}
+.b-left .left-s-bottom .email-i {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #fb5849;
+  border-radius: 50%;
+  margin-left: 70px;
+  margin-top: -20px;
+}
+
+.phone-i > .material-icons,
+.email-i > .material-icons {
+  position: absolute;
+  display: flex;
+  line-height: 60px;
+  font-size: 24px;
+  justify-content: center;
+  color: #fff;
+  left: calc((60px - 24px) / 2);
+}
+.phone-num-box .phone-content,
+.email-box .email-content {
+  text-align: center;
+  margin-top: 15px;
+}
+.phone-num-box .phone-content .phone-text,
+.email-box .email-content .email-text {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #2a2a2a;
+}
+.phone-num-box .phone-content .phone-number,
+.email-box .email-content .email-addr {
+  font-size: 12px;
+  line-height: 16px;
+  color: #2a2a2a;
+}
+.b-right {
+  position: relative;
+  background-color: #fff;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  border-radius: 10px;
+  width: 100%;
+  margin-left: 60px;
+}
+.b-right .b-title {
+  text-align: center;
+  margin-top: 60px;
+  color: #2a2a2a;
+  font-size: 30px;
+  font-weight: 700;
+}
+.b-right .b-type-in {
+  position: relative;
+  width: 500px;
+  height: 350px;
+  margin: 0 auto;
+}
+.b-right .b-type-in .type-in-left {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 50%;
+}
+.b-right .b-type-in .type-in-right {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 50%;
+}
+.b-right .b-type-in .type-in-left input,
+.b-right .b-type-in .type-in-right input {
+  width: 220px;
+  height: 40px;
+  margin: 15px;  
+  box-sizing: border-box;
+}
+.b-right .b-type-in .type-in-msg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.b-right .b-type-in .type-in-msg input {
+  width: 470px;
+  height: 110px;
+  margin-left: 15px;
+  text-align: left;
+  box-sizing: border-box;
+}
+.b-right .b-button {
+  position: relative;
+  width: 470px;
+  background-color: #fb5849;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px;
+  cursor: pointer;
+}
+.b-right .b-button:hover {
+  background-color: #fff;
+  color: #fb5849;
+  border: 1px solid #fb5849;
 }
