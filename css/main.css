@@ -149,7 +149,8 @@ body {
 }
 .section-container {
   line-height: 24px;
-  height: 500px;
+  height: 550px;
+  
 }
 .section-container .row {
   display: flex;
@@ -247,7 +248,6 @@ body {
 
 /* SECTION-2-PART */
 #menu {
-  margin-top: 100px;
   background-color: #fffafa;
   padding: 100px 0px;
   z-index: 9;
@@ -287,7 +287,6 @@ body {
   position: relative;
   max-width: 100%;
   margin-top: -280px;
-  /* border: 1px solid red; */
 }
 .food-card .food-item {
   display: flex;
@@ -366,9 +365,6 @@ body {
 
 /* OUR CHEFS-PART */
 
-#chef {
-  padding-top: 150px;
-}
 .section-container {
   max-width: 100%;
 }
@@ -379,6 +375,7 @@ body {
   line-height: 30px;
   margin-bottom: 20px;
   text-align: center;
+  margin-top: 50px;
 }
 .section-container .sec-title2 h6 {
   font-size: 15px;
@@ -651,4 +648,98 @@ body {
   background-color: #fff;
   color: #fb5849;
   border: 1px solid #fb5849;
+}
+
+/* KLASSY WEEK-PART */
+
+#klassy-week {
+  margin-top: 50px;
+}
+.section-container .k-text {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+.section-container .k-text h6 {
+  color: #fb5849;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  line-height: 50px;
+}
+.section-container .k-text h2 {
+  color: #2a2a2a;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 40px;
+}
+.section-container .k-menu {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 50px;
+  box-sizing: border-box;
+}
+.section-container .k-menu .time {
+  padding: 10px;
+  box-sizing: border-box;
+  height: 110px;
+}
+.section-container .k-menu .time:hover h2 {
+  color: #fb5849;
+}
+.section-container .k-menu img {
+  width: 100px;
+  height: 60px;
+}
+.section-container .k-food-list {
+  margin-top: 30px;
+  max-width: 100%;
+}
+.section-container .k-food-list .k-food-list-m {
+  display: flex;
+  justify-content: center;
+}
+.section-container .k-food-list .k-food-list-m .k-food-list-f1,
+.section-container .k-food-list .k-food-list-m .k-food-list-f2 {
+  padding: 25px;
+}
+.section-container .k-food-list .k-food-list-m .f-1 {
+  display: flex;
+  margin: 15px;
+  align-items: center;
+}
+.section-container .k-food-list .k-food-list-m .f-1 .food-img {
+  border-radius: 10px;
+}
+.section-container .k-food-list .k-food-list-m .f-1 .food-texture {
+  margin-left: 25px;
+  width: 300px;
+}
+.section-container .k-food-list .k-food-list-m .f-1 .food-texture h2 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.section-container .k-food-list .k-food-list-m .f-1 .food-texture h6 {
+  font-size: 13px;
+  line-height: 14px;
+}
+.section-container .k-food-list .k-food-list-m .f-1 .food-cost {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background-color: #fb5849;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+.section-container .k-food-list1,
+.section-container .k-food-list2 {
+  display: none;
 }

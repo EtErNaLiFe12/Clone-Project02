@@ -24,3 +24,23 @@ for (let i = 0; i < displayEl.length; i++) {
 //   }
 // });
 
+// Mouse click시 
+
+// const targetLink = document.querySelectorAll('.k-menu .time a')
+// const tabContent = document.querySelectorAll('#tab-content > div')
+
+// for (let i = 0; i < targetLink.length; i++) {
+//     targetLink[i].addEventListener('click', function(e) {
+//         e.preventDefault();
+//         const orgTarget = e.target.getAttribute('href');
+//         const tabTarget = orgTarget.replace('#','');
+
+//         for(let x = 0; x < tabContent.length ; x++) {
+//             tabContent[x].style.display="none";
+//         }
+//         document.getElementById(tabTarget).style.display='block';
+//     });
+// }
+
+
+
