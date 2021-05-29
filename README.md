@@ -27,3 +27,15 @@
 - #### 클론 할 페이지를 실시간으로 보며 레이아웃 배치 및 스타일 작업 등 내용 코딩 합니다.
   #### (일부 title 등은 임의로 바꿈)
 - #### 외부 라이브러리는 CDN으로 연결
+
+### 외부 라이브러리 (사용 CDN)
+
+```html
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2df82b8295.js" crossorigin="anonymous"></script>
+
+```
