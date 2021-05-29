@@ -14,6 +14,12 @@
 - #### javascript
 
 ---
+### 기능 구현
+
+- #### input 태그의 radio를 사용하여 tab 기능을 추가 (javascript X)
+
+
+---
 
 ### 기타 사항
 
