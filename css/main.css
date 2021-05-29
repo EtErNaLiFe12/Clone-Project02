@@ -675,24 +675,37 @@ body {
   font-weight: 700;
   line-height: 40px;
 }
-.section-container .k-menu {
-  display: flex;
+.tab-content {
+  position: relative;
   text-align: center;
-  justify-content: center;
-  margin: 50px;
-  box-sizing: border-box;
 }
-.section-container .k-menu .time {
-  padding: 10px;
-  box-sizing: border-box;
-  height: 110px;
+input[type="radio"] {
+  display: none;
 }
-.section-container .k-menu .time:hover h2 {
-  color: #fb5849;
+input[type="radio"] + label {
+  display: inline-block;
+  padding: 20px;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
 }
-.section-container .k-menu img {
-  width: 100px;
-  height: 60px;
+input[type="radio"] + label span {
+  display: block;
+}
+input[type="radio"]:checked + label {
+  color: #fb5876;
+}
+input[id="tab01"]:checked ~ .con1 {
+  display: block;
+}
+input[id="tab02"]:checked ~ .con2 {
+  display: block;
+}
+input[id="tab03"]:checked ~ .con3 {
+  display: block;
+}
+.k-food-list {
+  display: none;
 }
 .section-container .k-food-list {
   margin-top: 30px;
@@ -738,8 +751,4 @@ body {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
-}
-.section-container .k-food-list1,
-.section-container .k-food-list2 {
-  display: none;
 }
