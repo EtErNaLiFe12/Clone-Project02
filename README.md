@@ -1,5 +1,7 @@
 # Clone-project-2(Klassy Cafe(free) - 정적사이트)
 
+## 추후 반응형 웹으로 전환 예정입니다. - 모바일 / 데스크탑 전용
+
 ### Summary
 - #### html/css/javascript로 만드는 정적 사이트 클론 프로젝트 입니다.
 - #### 기존 study한 내용을 토대로 연습 및 복습을 위해 배운 내용들을 동원하여 
