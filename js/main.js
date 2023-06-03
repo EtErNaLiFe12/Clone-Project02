@@ -10,19 +10,19 @@ for (let i = 0; i < displayEl.length; i++) {
     })
 }
 
-// const infoEls = document.querySelectorAll('.info');
-// const descriptionEls = document.querySelectorAll('.title');
-// let fadeOut = true;
-// descriptionEls.addEventListener('click', function () {
-//   fadeOut = !fadeOut
-//   if (fadeOut) {
-//     //Class 추가
-//     infoEls.classList.add('fadeout');
-//   } else {
-//     //원상 복귀
-//     infoEls.classList.remove('fadeout');
-//   }
-// });
+const infoEls = document.querySelectorAll('.info');
+const descriptionEls = document.querySelectorAll('.title');
+let fadeOut = true;
+descriptionEls.addEventListener('click', function () {
+  fadeOut = !fadeOut
+  if (fadeOut) {
+    //Class 추가
+    infoEls.classList.add('fadeout');
+  } else {
+    //원상 복귀
+    infoEls.classList.remove('fadeout');
+  }
+});
 
 // Mouse click시 
 
